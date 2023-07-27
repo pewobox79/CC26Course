@@ -1,7 +1,45 @@
+
+
+@media screen and (min-width: 768px){
+   
+
 .borderStyling{
             border: 2px solid blue
          }
 
-.sectionStyling{                    background-color: lightblue;
-            border: 3px solid green
-         }
+.sectionStyling{                          background-color: lightblue;
+border: 3px solid green;
+
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+
+margin-bottom: 10px;
+border-radius: 5px;
+max-width: 30%;
+min-width: 80px;
+width: auto
+
+ }
+
+
+ /* PSEUDO CLASSES */
+
+ .sectionStyling:hover{
+   background-color: red;
+   color: white
+
+ }
+
+ #partnerClients{
+   background-color: white
+ }
+
+ .sectionsWrapper{
+   border: 2px dotted purple;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+ }
+}
