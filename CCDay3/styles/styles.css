@@ -1,0 +1,31 @@
+/* this starts a 0px width*/
+
+header {
+    border: 1px solid red;
+
+}
+
+.mainNavigation{
+    background-color: green;
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 2rem;
+}
+
+.logo{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 668px){
+
+    .mainNavigation{
+        background-color: yellow;
+    }
+
+    .logo{
+        display: block;
+    }
+}
+
