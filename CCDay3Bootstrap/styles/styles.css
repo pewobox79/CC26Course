@@ -1,0 +1,15 @@
+:root{
+
+    --mainColor: gray
+
+}
+
+
+
+.myColor{
+    color: var(--mainColor)
+}
+
+.footerTitle{
+    color: var(--mainColor)
+}
