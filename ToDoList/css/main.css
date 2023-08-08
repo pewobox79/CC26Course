@@ -3,4 +3,19 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.toDoItem{
+    height: 40px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+.completed{
+    background-color: red;
+    text-decoration: line-through;
 }

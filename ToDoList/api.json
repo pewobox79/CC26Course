@@ -1,0 +1,15 @@
+{
+    "data": [
+        {
+          "title": "milk",
+          "uuid": "123-456",
+          "timestamp": "08.08.2023"  
+        },
+        {
+          "title": "butter",
+          "uuid": "124-896",
+          "timestamp": "08.08.2023"  
+        }
+
+    ]
+}

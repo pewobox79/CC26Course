@@ -13,6 +13,8 @@ let newToDo = "" // stores the new input value
 /**INPUT FIELD function */
 const handleNewToDo = (event)=>{
     newToDo = event.target.value;
+
+    console.log(`this is my todo value ${newToDo[4]}`)
 }
 
 /** BUTTON function */
@@ -23,8 +25,9 @@ const addNewToDo =()=>{
     /** new item adding and render all <li> to frontend */
     listOfToDos.push(newToDo);
 
+
     /**read all items from the array */
-    listOfToDos.map((toDo)=>{
+    listOfToDos.map(toDo=>{
 
         const li = document.createElement("li");
         li.innerText = toDo;
@@ -36,7 +39,6 @@ const addNewToDo =()=>{
 
 
 
-
 }   
 
 console.log("list of todos", listOfToDos)
@@ -44,3 +46,10 @@ console.log("list of todos", listOfToDos)
 /** add EVENTS to elements */
 inputField.addEventListener("change", handleNewToDo);
 addButton.addEventListener("click", addNewToDo)
+
+
+// () => used function OR method 
+// {} => used for wrap defined actions OR collects properties  
+// [] => used ARRAY and calling index values
+
+
